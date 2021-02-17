@@ -1,11 +1,18 @@
 {
   "name": "prettify-source",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "prettify all the files in the source directory",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [
+    "*",
+    "!/test",
+    "!test.js",
+    "!/.git",
+    "!.gitignore"
+  ],  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Paul-Browne/npm-prettify-source.git"
