@@ -1,6 +1,6 @@
 {
   "name": "prettify-source",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "prettify all the files in the source directory",
   "main": "index.js",
   "scripts": {
@@ -25,8 +25,8 @@
   "homepage": "https://github.com/Paul-Browne/npm-prettify-source#readme",
   "dependencies": {
     "hours-minutes-seconds": "1.0.1",
-    "mime-types": "^2.1.28",
-    "prettier": "^2.2.1",
+    "mime-types": "^2.1.33",
+    "prettier": "^2.4.1",
     "recursive-file-walker": "^1.0.7",
     "time-stamped-console-log": "^1.0.2"
   }
