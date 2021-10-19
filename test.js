@@ -1,3 +1,3 @@
-const prettifySrc = require(".");
+import prettifySrc from "./index.js";
 
 prettifySrc("test");
